@@ -1,0 +1,24 @@
+---
+title: "`readthebigrdoc` template example"
+date: "`r Sys.Date()`"
+author:
+  - name: "BiGR: Bioinformatics Core Facility of Gustave Roussy"
+    email: "bigr@gustaveroussy.fr"
+  - name: "Marine AGLAVE"
+    email: "marine.aglave@gustaveroussy.fr"
+output:
+  rmdformatsbigr::readthebigrdoc:
+    code_folding: show
+    self_contained: true
+    thumbnails: false
+    lightbox: false
+pkgdown:
+  as_is: true    
+---
+
+
+```{r, results="asis", echo=FALSE, message=FALSE, warning=FALSE}
+res <- knitr::knit_child('_example_body.Rmd', quiet = TRUE)
+cat(res, sep = '\n')
+```
+

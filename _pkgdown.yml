@@ -1,0 +1,12 @@
+url: https://gitlab.com/bioinfo_gustaveroussy/bigr/rmdformatsbigr/
+template:
+  params:
+    bootswatch: cosmo
+reference:
+- title: Template
+  contents:
+  - '`readthebigrdoc`'
+- title: Helpers
+  contents:
+  - '`pilltabs`'
+  - '`print.pilltabs`'

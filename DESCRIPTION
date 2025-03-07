@@ -1,0 +1,26 @@
+Package: rmdformatsbigr
+Maintainer: Marine AGLAVE <marine.aglave@gustaveroussy.fr>
+Authors@R: c(person("Julien", "Barnier",role=c("aut")),
+	person("Marine", "AGLAVE", email="marine.aglave@gustaveroussy.fr",role=c("aut","cre")))
+Version: 1.0.0
+Date: 2022-02-01
+License: GPL (>= 2)
+Encoding: UTF-8
+Title: HTML Output Template for Rmarkdown Documents
+Description: HTML template for Rmarkdown documents, with some extra features such
+    as automatic table of contents, lightboxed figures, dynamic crosstab helper,
+    using by Bioinformatics core facility of Gustave Roussy (BiGR).
+    This template is inspired from readthedown template created by Julien Barnier
+    (https://github.com/juba/rmdformats).
+Imports:
+    knitr,
+    rmarkdown,
+    bookdown,
+    htmltools
+Suggests:
+    questionr,
+    DT,
+    ggplot2
+URL: https://gitlab.com/bioinfo_gustaveroussy/bigr/rmdformatsbigr
+BugReports: https://gitlab.com/bioinfo_gustaveroussy/bigr/rmdformatsbigr/issues
+RoxygenNote: 7.1.2
