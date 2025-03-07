@@ -21,7 +21,7 @@ You can install the latest release from Github :
 ```r
 install.packages("remotes")  # if necessary
 install.packages("git2r")
-remotes::install_git("https://gitlab.com/bioinfo_gustaveroussy/bigr/rmdformatsbigr.git",
+remotes::install_git("https://github.com/sandratra-rab/rmdformatsbigr.git",
              credentials=git2r::cred_user_pass("your_login", "your_password"))
 ```
 
